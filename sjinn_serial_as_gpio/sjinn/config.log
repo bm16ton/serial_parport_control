@@ -1,0 +1,23 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:528: checking for gcc
+configure:641: checking whether the C compiler (gcc  ) works
+configure:657: gcc -o conftest    conftest.c  1>&5
+conftest.c:2:23: warning: extra tokens at end of #include directive
+ # include "confdefs.h";
+                       ^
+conftest.c:4:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:683: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:688: checking whether we are using GNU C
+configure:716: checking whether gcc accepts -g
+configure:750: checking how to run the C preprocessor
+configure:830: checking for ANSI C header files
+configure:937: checking for fcntl.h
+configure:937: checking for sys/ioctl.h
+configure:937: checking for unistd.h
+configure:977: checking whether gcc needs -traditional
+configure:1023: checking return type of signal handlers
+configure:1066: checking for strtod
